@@ -19,6 +19,9 @@ SETUP         folder → environment → "ready" → task (file / repo / blank)
 THE LOOP      reproduce → read → categorize → hypothesize → fix → VERIFY (re-run)
 THE RULE      every bug is LOUD (it crashes) or SILENT (it prints a wrong number).
               after every run, ask: "print the shape — and is this value even plausible?"
+FAMILIES      10 bugs → 6 families. LOUD: shape · dtype · device · config
+                                    SILENT: dim · semantic
+              name the family, say its one-liner, fix, re-run. (full table in THE_MAP.md)
 MINDSET       you are the senior; the AI is the intern. calm > clever. narrate everything.
 META          stuck / thrashing on details? ask for the MAP first, details second.
 ```
@@ -50,7 +53,7 @@ python bugs/bug1_shape.py     # ← then debug the 10 classic bugs, one rep at a
 ## The philosophy
 
 - **You are the senior; the AI is the intern.** Let it scaffold and propose — but you reproduce, hypothesize, and **verify by running.** That verifying is the skill they grade.
-- **Every bug is LOUD or SILENT.** Loud crashes (read the last traceback line). Silent ones print a wrong number (only your judgment catches them). After every run: *"print the shape — and is this value plausible?"*
+- **Every bug is LOUD or SILENT — and collapses into one of 6 families.** Loud crashes (read the last traceback line): *shape · dtype · device · config*. Silent ones print a wrong number — only your judgment catches them: *dim · semantic*. After every run: *"print the shape — and is this value plausible?"* Naming the family is what tells you the one sentence to say next.
 - **Calm > clever.** Reproduce first, narrate your method, run the smallest test, never declare victory without re-running.
 - **Ask for the map first.** When you're new to anything and thrashing on details, the move isn't "ask fewer questions" — it's *"ask the framing question first, details second."*
 
@@ -61,3 +64,7 @@ Anyone facing an **AI-assisted / ML / research-coding pairing interview** (Huggi
 ## License
 
 MIT — use it, fork it, share it. If it helps you, ⭐ it so others find it.
+
+---
+
+Built by **Emre Turan** · [turangenesis.com](https://turangenesis.com)
