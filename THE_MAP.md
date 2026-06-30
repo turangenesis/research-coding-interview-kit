@@ -29,6 +29,8 @@ pip install torch==2.6.0 transformers==4.50.3 datasets==3.5.0
 - The active venv = **which packages exist**.
 They never conflict. (Pro tip: a ready venv can be activated from *any* folder by absolute path — `source ~/path/.venv/bin/activate` — only the Python switches; your folder stays.)
 
+> Pairing in an **AI chat panel** with a terminal below it, unsure who runs what or whether the venv is even "on" in the chat? → [`SETUP_FAQ.md`](SETUP_FAQ.md) answers exactly that.
+
 **When they ask "is your environment ready?" → "Yes."** Then the task arrives — one of three:
 
 | They give… | You do |

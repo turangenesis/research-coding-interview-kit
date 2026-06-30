@@ -42,6 +42,7 @@ python bugs/bug1_shape.py     # ← then debug the 10 classic bugs, one rep at a
 | File | What it does |
 |---|---|
 | [`THE_MAP.md`](THE_MAP.md) | the universal skeleton: setup + the debug loop + the meta-skill |
+| [`SETUP_FAQ.md`](SETUP_FAQ.md) | the chat vs terminal vs venv confusion, answered — who runs what, and what `git clone` really does |
 | [`CHEATCARD.md`](CHEATCARD.md) | one-page reference to keep open during the call |
 | `setup.sh` | one command: isolated env + pinned deps + verified imports |
 | `01_hello_hf.py` | the whole HF flow, working: text → tokenize → model → logits → label |
