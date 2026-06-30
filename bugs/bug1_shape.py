@@ -1,6 +1,6 @@
 # BUG 1 — SHAPE MISMATCH (the #1 ML bug).
 # Run it:  python bugs/bug1_shape.py
-# It will crash. Read the error, then fix it (or ask: et-debug).
+# It will crash. Read the error, then fix it (or ask your AI assistant).
 import torch
 import torch.nn as nn
 
